@@ -5,7 +5,7 @@
    <session-factory>
    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-   <property name="hibernate.connection.url">jdbc:mysql://kubernetestest.c94m5km2wv1w.us-east-1.rds.amazonaws.com:3306/test_db</property>
+   <property name="hibernate.connection.url">jdbc:mysql://kubedb:3306/test_db</property>
    <property name="hibernate.connection.username">kube</property>
    <property name="hibernate.connection.password">Kube1234</property> 
   <!--   <property name="hibernate.connection.url">jdbc:mysql://localhost/contact_info</property>
