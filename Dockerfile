@@ -145,7 +145,7 @@ RUN set -e \
 		echo >&2 "$nativeLines"; \
 		exit 1; \
 	fi
-ADD target/webappRunnerSample.war /usr/local/tomcat/webapps/webappRunnerSample.war
+ADD target/ContactInfo2.war /usr/local/tomcat/webapps/ContactInfo2.war
 #change tomcat-users.xml
 ADD tomcat-users.xml /usr/tomcat-users.xml
 RUN rm -f /usr/local/tomcat/conf/tomcat-users.xml
