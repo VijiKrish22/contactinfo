@@ -1,4 +1,4 @@
-package com.mindtree.Entity;
+package com.mindtree.Service.Entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
