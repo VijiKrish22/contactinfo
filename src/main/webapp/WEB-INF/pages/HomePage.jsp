@@ -7,7 +7,7 @@
 <title>Contact Info</title>
 </head>
 <body>
-	<center><h3>Welcome to Contact Info Application</h3></center><br><br>
+	<center><h3>Welcome to Contact Info Application on Kubernetes</h3></center><br><br>
 	<div align="center">
 		<a href="AddContactController.view">Add Contact</a><br><br>
 		<a href="ViewContactsController.view">View Contacts</a>
