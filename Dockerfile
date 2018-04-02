@@ -150,5 +150,5 @@ ADD target/ContactInfo2.war /usr/local/tomcat/webapps/ContactInfo2.war
 ADD tomcat-users.xml /usr/tomcat-users.xml
 RUN rm -f /usr/local/tomcat/conf/tomcat-users.xml
 RUN cp /usr/tomcat-users.xml /usr/local/tomcat/conf/tomcat-users.xml
-EXPOSE 8080
+EXPOSE 80
 CMD ["catalina.sh", "run"]
