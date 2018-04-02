@@ -6,9 +6,9 @@
    <session-factory>
    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-   <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/test_db</property>
-   <property name="hibernate.connection.username">root</property>
-   <property name="hibernate.connection.password"></property> 
+   <property name="hibernate.connection.url">jdbc:mysql://kubedb:3306/test_db</property>
+   <property name="hibernate.connection.username">kube</property>
+   <property name="hibernate.connection.password">Kube1234</property> 
   <!--   <property name="hibernate.connection.url">jdbc:mysql://localhost/contact_info</property>
    <property name="hibernate.connection.username">root</property>
    <property name="hibernate.connection.password">123</property>-->
