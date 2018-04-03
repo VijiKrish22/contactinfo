@@ -93,6 +93,6 @@
                                                                 </configuration>
                                                 </plugin>
                                 </plugins>
-    <finalName>ContactInfo2</finalName>
+    <finalName>/</finalName>
   </build>
 </project>
