@@ -9,6 +9,6 @@ RUN sed -i "s|8080|80|g" /usr/local/tomcat/conf/server.xml
 RUN rm -r /usr/local/tomcat/webapps/ROOT
 
 # Copy to images tomcat path
-ADD target/ContactInfo.war /usr/local/tomcat/webapps/ROOT.war
+ADD target/AddContactInfo.war /usr/local/tomcat/webapps/ROOT.war
 
 EXPOSE 80
