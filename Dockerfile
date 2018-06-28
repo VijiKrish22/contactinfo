@@ -2,7 +2,7 @@
 From tomcat:8-jre8
 
 # Maintainer
-MAINTAINER "xxx <xxx@gmail.com">
+MAINTAINER "Srinivas <srinivasbommadevara666@gmail.com">
 
 RUN sed -i "s|8080|80|g" /usr/local/tomcat/conf/server.xml
 
