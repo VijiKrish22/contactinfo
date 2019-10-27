@@ -88,8 +88,8 @@
                                                 <plugin>
                                                                 <artifactId>maven-compiler-plugin</artifactId>
                                                                 <configuration>
-                                                                                <source>3.6</source>
-                                                                                <target>3.6</target>
+                                                                                <source>3.1</source>
+                                                                                <target>3.1</target>
 									        <encoding>UTF-8</encoding>
                                                                 </configuration>
                                                 </plugin>
